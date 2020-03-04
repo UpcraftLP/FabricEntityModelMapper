@@ -4,7 +4,7 @@ FabricEntityModelMapper
 a less hardcoded version of [f2fentitymodels](https://github.com/Draylar/f2fentitymodels)
 
 [![Build Status](https://img.shields.io/github/workflow/status/UpcraftLP/FabricEntityModelMapper/Build%20Status?label=Build%20Status&logo=GitHub&style=flat-square)](https://github.com/UpcraftLP/FabricEntityModelMapper/actions?query=workflow%3A%22Build+Status%22 "GitHub Actions")
-[![Latest Release](https://img.shields.io/github/v/release/UpcraftLP/FabricEntityModelMapper?include_prereleases&label=Download&style=flat-square)](https://github.com/UpcraftLP/FabricEntityModelMapper/releases/latest "GitHub Releases")
+[![Latest Release](https://img.shields.io/github/v/release/UpcraftLP/FabricEntityModelMapper?include_prereleases&label=Latest&style=flat-square)](https://github.com/UpcraftLP/FabricEntityModelMapper/releases/latest "GitHub Releases")
 
 ---
 

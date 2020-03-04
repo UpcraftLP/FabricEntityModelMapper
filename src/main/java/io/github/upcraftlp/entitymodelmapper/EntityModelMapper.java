@@ -43,7 +43,7 @@ public class EntityModelMapper {
                 while(importMatcher.find()) {
                     String fqcn = importMatcher.group("fqcn");
                     if(fqcn != null) {
-                        sb.replace(importMatcher.start("fqcn"), importMatcher.end("fqcn"), Remapper.mapClassName(fqcn, true).orElseThrow(() -> new NoSuchElementException("no mapping for " + fqcn)).replaceAll("/", "."));
+                        Remapper.mapClassName(fqcn, true).map(s -> s.replaceAll("/", ".")).ifPresent(s -> sb.replace(importMatcher.start("fqcn"), importMatcher.end("fqcn"), s));
                     }
                 }
                 Matcher constructorMatcher = CONSTRUCTOR_PATTERN.matcher(sb.toString());
